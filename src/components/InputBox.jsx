@@ -35,7 +35,7 @@ function InputBox({
           className="rounded-lg px-1 py-1 bg-gray-100 cursor-pointer outline-none"
           value={selectCurrency}
           disabled={currencyDisable}
-          onCurrencyChange={(e) => onCurrencyChange(e.target.value)}
+          onChange={(e) => onCurrencyChange(e.target.value)}
         >
 
           //In order to use loops in react we require keys

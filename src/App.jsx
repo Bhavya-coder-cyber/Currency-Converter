@@ -29,7 +29,10 @@ function App() {
         backgroundImage: `url('https://images.pexels.com/photos/3532541/pexels-photo-3532541.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2')`,
       }}
     >
-      <div className="w-full">
+      <div className="flex justify-between items-center">
+      <div className="w-1/2 m-10">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTc9APxkj0xClmrU3PpMZglHQkx446nQPG6lA&s" alt="" width={300} height={300} />
+      </div>
         <div className="w-full max-w-md mx-auto border border-gray-60 rounded-lg p-5 backdrop-blur-sm bg-white/30">
           <form
             onSubmit={(e) => {
